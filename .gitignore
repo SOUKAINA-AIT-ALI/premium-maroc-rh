@@ -1,0 +1,22 @@
+# Dependencies and builds
+frontend/node_modules/
+frontend/dist/
+backend-spring/target/
+
+# Local runtime
+backend-spring/uploads/
+backend-spring/data/
+*.local
+.env
+.env.*
+
+# IDE and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Browser automation profile (cookies, cache) — never publish
+.browser-profile-login/
+.agents/
